@@ -23,11 +23,3 @@ public class DataTypes {
 
     }
 }
-$ git config --global commit.gpgsign true ([OPTIONAL] every commit will now be signed)
-$ git config --global user.signingkey E8DC498A97C4FEFA (where ABCDEF01 is the fingerprint of the key to use)
-$ git config --global alias.logs "log --show-signature" (now available as $ git logs)
-$ git config --global alias.cis "commit -S" (optional if global signing is false)
-$ echo "Some content" >> example.txt
-$ git add example.txt
-$ git cis -m "This commit is signed by a GPG key." (regular commit will work if global signing is enabled)
-$ git logs
