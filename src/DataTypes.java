@@ -14,7 +14,7 @@ public class DataTypes {
     char wifesLastName = wifeLastName.charAt(0);
 
     //charAt means accessing a specific character in a string.
-
+        // test verif
 
     System.out.println(studentAge);
     System.out.println(myName);
